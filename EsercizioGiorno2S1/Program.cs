@@ -7,10 +7,10 @@ Persona persona1 = new Persona()
     Eta = 32,
 };
 
-persona1.GetNome(persona1.Nome);
+persona1.GetNome();
 Console.WriteLine("-----------");
-persona1.GetCognome(persona1.Cognome);
+persona1.GetCognome();
 Console.WriteLine("-----------");
-persona1.GetEta(persona1.Eta);
+persona1.GetEta();
 Console.WriteLine("-----------");
-persona1.GetDetails(persona1.Nome, persona1.Cognome, persona1.Eta);
+persona1.GetDetails();

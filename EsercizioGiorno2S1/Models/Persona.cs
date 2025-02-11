@@ -11,22 +11,22 @@ namespace EsercizioGiorno2S1.Models
 
 
 
-            public void GetNome(string Nome)
+            public void GetNome()
             {
                 Console.WriteLine("Nome: " + Nome);
             }
 
-            public void GetCognome(string Cognome)
+            public void GetCognome()
             {
                 Console.WriteLine("Cognome:" + Cognome);
             }
 
-            public void GetEta(int Eta)
+            public void GetEta()
             {
                 Console.WriteLine("Età: " + Eta);
             }
 
-            public void GetDetails(string Nome, string Cognome, int Eta)
+            public void GetDetails()
             {
                 Console.WriteLine("Nome: " + Nome);
                 Console.WriteLine("Cognome: " + Cognome);
